@@ -1,13 +1,12 @@
-import { Footer } from "./_components/Footer";
-import { Header } from "./_components/Header";
+import { Main } from "./_components/layouts/Main";
+import { Footer } from "./_components/layouts/Footer";
+import { Header } from "./_components/layouts/Header";
 
 export default function Home() {
   return (
     <>
       <Header/>
-      <main>
-
-      </main>
+      <Main/>
       <Footer/>
     </>
   );

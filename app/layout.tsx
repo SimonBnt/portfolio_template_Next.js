@@ -10,8 +10,12 @@ const AnekTelugu = Anek_Telugu({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js portfolio_template",
-  description: "Next.js_portfolio_template_tailwind_shadcn",
+  title: "Next.js portfolio template",
+  description: "Next.js portfolio template with Tailwind and shadcn",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
 };
 
 export default function RootLayout({
